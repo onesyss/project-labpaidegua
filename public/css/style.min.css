@@ -4,8 +4,27 @@
   height: 380px;
 }
 
+@media only screen and (max-width: 490px) {
+  .icon-respon  {
+    position: relative;
+    top: 5px;
+    left: 15px;
+    width: 70%;
+    
+  }
+}
+
+@media only screen and (max-width: 490px) {
+  .text-dropdown  {
+
+    font-size: 12px;
+    
+  }
+}
+
+
 .topo {
-  background-color: rgb(246, 246, 246);
+  background-color: rgb(233, 233, 233);
 }
 
 .colaborador {
@@ -13,16 +32,38 @@
   color: rgb(2, 1, 1);
 }
 
+.frase-central {
+  position: relative;
+  top: -110px;
+}
+
+@media only screen and (max-width: 490px) {
+  .frase-central {
+    position: relative;
+    top: 10px;
+    left: 10px;
+    
+  }
+}
+
 .slid {
   width: 100%;
   height: 450px;
   opacity: 0.9;
+  position: relative;
+  left: -8px;
 }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 490px) {
   .slid {
-    width: 95%;
-    height: 50%;
+    margin-top: 70%;
+    display: flex;
+    width: 100%;
+    height: 200%;
+    text-align: center;
+    position: relative;
+    left: -2.2%;
+    
   }
 }
 
