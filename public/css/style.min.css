@@ -1,0 +1,44 @@
+.scrollspySite {
+  position: relative;
+  overflow: auto;
+  height: 380px;
+}
+
+.topo {
+  background-color: rgb(246, 246, 246);
+}
+
+.colaborador {
+  font-size: 17px;
+  color: rgb(2, 1, 1);
+}
+
+.slid {
+  width: 100%;
+  height: 450px;
+  opacity: 0.9;
+}
+
+@media only screen and (max-width: 480px) {
+  .slid {
+    width: 95%;
+    height: 50%;
+  }
+}
+
+
+.ajuste-lab {
+  max-width:400px;
+  max-height:400px;
+  width: auto;
+  height: auto;
+}
+
+.body{
+  background-color: whitesmoke !important;
+  padding-top: 50px !important;
+}
+#nav{
+  box-shadow: black 0 0 5px;
+  opacity: 0.3;
+}
